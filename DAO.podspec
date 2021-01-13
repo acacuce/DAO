@@ -13,8 +13,8 @@ Pod::Spec.new do |s|
 
   s.subspec 'Realm' do |r|
       r.source_files = 'DAO/Classes/RealmDAO/**/*', 'DAO/Classes/Core/**/*'
-      r.dependency "Realm", git => 'https://github.com/acacuce/realm-cocoa.git'
-      r.dependency "RealmSwift", git => 'https://github.com/acacuce/realm-cocoa.git'
+      r.dependency "Realm", :git => 'https://github.com/acacuce/realm-cocoa.git'
+      r.dependency "RealmSwift", :git => 'https://github.com/acacuce/realm-cocoa.git'
   end
 
   s.subspec 'CoreData' do |cd|
