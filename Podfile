@@ -9,6 +9,6 @@ target 'CoreDataDAO' do
 end
 
 target 'RealmDAO' do
-  pod "Realm"
-  pod "RealmSwift"
+  pod "Realm", git => 'https://github.com/acacuce/realm-cocoa.git'
+  pod "RealmSwift", , git => 'https://github.com/acacuce/realm-cocoa.git'
 end
